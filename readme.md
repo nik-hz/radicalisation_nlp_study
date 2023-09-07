@@ -22,4 +22,8 @@ Each line contains represents the text content of a distinct post.
 This method is limited in various ways.
 - The model relies on the creator's preconceptions of what is hateful speech or not.
 - The model casts a wide net, and flags comments that are not directly hatespeech, but are linked to hateful topics and chats. I expect the model to produce a lot of qualitative false positives, since not every single comment in hateful subreddits is necessarily hateful or hate speech and we must expect some comments from the non hate speech dataset to be hateful or contain hate speech.
-- Future versions of this model, may include a multi class classifier to determine varying levels of hatefulness. 
+- Future versions of this model, may include a multi class classifier to determine varying levels of hatefulness.
+
+### Notes
+
+This is a cleaner version of a previous implementation, check out https://github.com/nik-hz/nlp_reddit_hate_speech for more util scripts and a Git Large File link to the datasets.
